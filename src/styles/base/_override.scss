@@ -1,0 +1,21 @@
+// _override.scss
+//
+// Overriding Ant Design's default variables, such as colors, shadows and... .
+//
+
+.ant-layout, .ant-layout * {
+	border-radius: 6px;
+}
+.ant-form-inline .ant-form-item {
+	margin-bottom: 10px;
+}
+//.ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body {
+//	height: calc(100vh - 380px);
+//}
+//.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+//	width: 100px;
+//}
+  .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu .router-link-exact-active {
+	font-weight: $fw-semibold;
+	color: $color-gray-10!important;
+}
